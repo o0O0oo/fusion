@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fusion 360</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/jquery-1.11.0.min.js" charset="UTF-8" type="text/javascript"></script>
+        <script src="js/jquery-ui.js" charset="UTF-8" type="text/javascript"></script>
+        <script src="js/jquery.slides.min.js" charset="UTF-8" type="text/javascript"></script>
+        <script src="js/main.js" charset="UTF-8" type="text/javascript"></script>
+    </head>
+    <body>
+        <header id="header">
+            <section class="header">
+                <a class="logo" href="javascript:void(0);">
+                    <img src="images/logo.png" alt="fusion 360"> 
+                    <span>FUSION 360</span>
+                </a>  		
+                <div class="mb navbar menu-toggle pull-left">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="navbar btn-login pull-right">      
+                    <a href="user.html">登录</a>
+                </div>
+                <nav class="menu">
+                    <div class="mb search-container">
+                        <i class="fa fa-search"></i>
+                        <input type="text" name="search" placeholder="搜索">
+                    </div>
+                    <ul>
+                        <li class="active"><a href="#">社区</a></li>
+                        <li><a href="#">教学</a></li>
+                        <li class="pc"><a href="#">产品</a></li>
+                        <li><a href="#">论坛</a></li>
+                        <li class="mb"><a href="#">消息中心</a></li>
+                        <li class="mb"><a href="#">发布新作品</a></li>                      
+                    </ul>
+                </nav>
+                <div class="pc-navbar pull-right">  
+                    <i class="fa fa-search search-btn"></i>
+                    <div class="search-container">         
+                        <i class="fa fa-search"></i>
+                        <input type="text" name="search" placeholder="搜索">
+                    </div>
+                    <a href="" class="btn-default btn-xsmall">新作品</a>
+                    <div class="user-info">
+                        <!--<a href="user.html" class="btn-login">登录</a>-->
+                        <img src="images/avatar.jpg" class="avatar">
+                        <i class="fa fa-angle-down"></i>
+                        <nav class="dropdown sub-ctn">
+                            <ul>
+                                <li><a href="">个人资料</a></li>
+                                <li class="active"><a href="">我的作品</a></li>
+                                <li class="cutline"><a href="">用户设置</a></li>
+                                <li><a href="">关注的人</a></li>
+                                <li class="cutline"><a href="">我的粉丝</a></li>
+                                <li><a href="">帮助</a></li>
+                                <li><a href="">注销</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <div id="container">
+            <section class="banner-wrapper">
+                <div id="slides">
+                    <img src="images/kv1.jpg" alt="kv1">
+                    <img src="images/kv1.jpg" alt="kv2">
+                    <img src="images/kv1.jpg" alt="kv3">
+                </div>    
+            </section>
+            <div class="tag">
+                <ul class="mb switch-tags">
+                    <li><a href="">我关注的</a></li>
+                    <li><a href="">编辑推荐</a></li>
+                    <li class="active"><a href="">浏览最多</a></li>
+                    <li><a href="">最近发布</a></li>
+                </ul>
+                <ul class="pc switch-tags">
+                    <li>作品</li>
+                    <li><a href="javascript:;" class="open-sub-tags">所有分类<i class="fa fa-angle-down"></i></a></li>
+                    <li class="active"><a href="">编辑推荐</a></li>
+                    <li><a href="">项目状态</a></li>
+                </ul>                
+            </div> 
+            <div class="pc sub-tags">
+                <i class="fa fa-angle-up"></i>
+                <ul>
+                    <li>产品设计
+                        <ul>
+                            <li>数码消费</li>
+                            <li>服装衣物以及纺织品</li>
+                            <li>首饰</li>
+                            <li>健康医疗设备</li>
+                            <li>家具</li>
+                            <li>印刷品以及纸张</li>
+                            <li>健康医疗设备</li>
+                            <li>家具</li>
+                            <li>印刷品以及纸张</li>
+                        </ul>
+                    </li>
+                    <li>建筑设计</li>
+                    <li>交通设计</li>
+                    <li>机械工程</li>
+                    <li>电路设计</li>
+                    <li>其他分类</li>
+                </ul>
+            </div>
+            <div id="options-case" class="projects-list case waterfall"> 
+                <div class="item">
+                    <img src="images/content1.png" class="pro-list-img">
+                    <div class="desc">
+                        The stars are beautiful seenThe stars are beautiful
+                    </div>
+                    <div class="pro-ctn">
+                        <img src="images/avatar.jpg" class="avatar">
+                        <div class="pull-right">     
+                            <a href="#" class="name">Roll Royce</a>
+                            <a href="project-detail.html" class="title"><strong>KJ66 Turbo Jet Engine Modeling</strong></a>                            
+                        </div> 
+                        <div class="opts pull-right text-right">
+                            <i class="fa fa-heart"></i><span class="num">2227</span>
+                            <i class="fa fa-star"></i><span class="num">227</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/content2.png" class="pro-list-img">
+                    <div class="desc">
+                        太好看了 不舍得用太好看了太好看了 用太好用太好用太好用太好用太好用太好用太好
+                    </div>
+                    <div class="pro-ctn">
+                        <img src="images/avatar.jpg" class="avatar">
+                        <div class="pull-right"> 
+                            <a href="#" class="name">叫我小王子</a>
+                            <a href="#" class="title"><strong>折纸玫瑰</strong></a>                            
+                        </div> 
+                        <div class="opts pull-right text-right">
+                            <i class="fa fa-heart"></i><span class="num">27</span>
+                            <i class="fa fa-star"></i><span class="num">7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/content3.jpg" class="pro-list-img">
+                    <div class="desc">
+                        The stars are beautifuThe stars are beautiful
+                    </div>
+                    <div class="pro-ctn">
+                        <img src="images/avatar.jpg" class="avatar">
+                        <div class="pull-right">
+                            <a href="#" class="name">Roll Royce</a>
+                            <a href="#" class="title"><strong>这是个小花斧头</strong></a>                           
+                        </div> 
+                        <div class="opts pull-right text-right">
+                            <i class="fa fa-heart"></i><span class="num">3527</span>
+                            <i class="fa fa-star"></i><span class="num">97</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/content4.jpg" class="pro-list-img">
+                    <div class="desc">
+                        The stars are beautifulThe stars are beautiful
+                    </div>
+                    <div class="pro-ctn">
+                        <img src="images/avatar.jpg" class="avatar">
+                        <div class="pull-right">
+                            <a href="#" class="name">Roll Royce</a>
+                            <a href="#" class="title"><strong>这是个小花斧头</strong></a>                            
+                        </div> 
+                        <div class="opts pull-right text-right">
+                            <i class="fa fa-heart"></i><span class="num">3527</span>
+                            <i class="fa fa-star"></i><span class="num">97</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/content1.png" class="pro-list-img">
+                    <div class="desc">
+                        The stars are beautifulThe stars are beautiful
+                    </div>
+                    <div class="pro-ctn">
+                        <img src="images/avatar.jpg" class="avatar">
+                        <div class="pull-right">
+                            <a href="#" class="name">Roll Royce</a>
+                            <a href="#" class="title"><strong>这是个小花斧头</strong></a>
+                            
+                        </div> 
+                        <div class="opts pull-right text-right">
+                            <i class="fa fa-heart"></i><span class="num">3527</span>
+                            <i class="fa fa-star"></i><span class="num">97</span>
+                        </div>
+                    </div>
+                </div>              
+                <div class="item">
+                    <img src="images/content4.jpg" class="pro-list-img">
+                    <div class="desc">
+                        The stars are beautiful...
+                    </div>
+                    <div class="pro-ctn">
+                        <img src="images/avatar.jpg" class="avatar">
+                        <div class="pull-right">
+                            <a href="#" class="name">Roll Royce</a>
+                            <a href="#" class="title"><strong>这是个小花斧头</strong></a>
+                            
+                        </div> 
+                        <div class="opts pull-right text-right">
+                            <i class="fa fa-heart"></i><span class="num">3527</span>
+                            <i class="fa fa-star"></i><span class="num">97</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer">
+                <span><a href="">关于Fusion 360</a> | <a href="">联系</a> | <a href="">权益</a> | <a href="">帮助</a></span><span class="pull-right">Autodesk 版权所有</span>
+            </div>
+        </footer>
+        <script src="js/zepto.js" charset="UTF-8" type="text/javascript"></script>
+        <script src="js/waterfall.js" charset="UTF-8" type="text/javascript"></script>
+        <script type="text/javascript">                     
+            jQuery(document).ready(function () {
+                jQuery(".waterfall").waterfall({});
+                jQuery('#slides').slidesjs({
+                    navigation: false,
+                    width: 750,
+                    height: 285,
+                    play: {
+                        auto: true
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
